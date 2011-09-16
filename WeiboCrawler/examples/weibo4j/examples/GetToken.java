@@ -10,6 +10,8 @@ import weibo4j.http.AccessToken;
 import weibo4j.http.RequestToken;
 import weibo4j.util.BareBonesBrowserLaunch;
 
+//just to make some change by swarm at 1:37am 9/17/2011
+
 public class GetToken {
 
 	/**
