@@ -23,7 +23,7 @@ public class GetCommentsByMe {
     	System.setProperty("weibo4j.oauth.consumerSecret", Weibo.CONSUMER_SECRET);
         try {
         	Weibo weibo = new Weibo();
-			weibo.setToken(args[0],args[1]);
+			//weibo.setToken(args[0],args[1]);
         	List<Comment> comments = weibo.getCommentsTimeline();
     		for(Comment comment : comments) {
     			System.out.println(comment.toString());
