@@ -27,7 +27,7 @@ public class GetFriendsTimeline {
 		try {
 			//获取前20条关注用户的微博信息
 			Weibo weibo = new Weibo();
-			weibo.setToken(args[0],args[1]);
+			//weibo.setToken(args[0],args[1]);
 			Paging page=new Paging(2);
 			List<Status> statuses = weibo.getFriendsTimeline(page);
 			for (Status status : statuses) {
