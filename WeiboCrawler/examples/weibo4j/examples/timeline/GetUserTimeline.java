@@ -25,7 +25,7 @@ public class GetUserTimeline {
     	System.setProperty("weibo4j.oauth.consumerSecret", Weibo.CONSUMER_SECRET);
 		try {
 			Weibo weibo = new Weibo();
-			weibo.setToken(args[0],args[1]);
+			//weibo.setToken(args[0],args[1]);
 			Paging pag = new Paging();
 			pag.setSinceId(3343021761165196l);
 			pag.setCount(200);
